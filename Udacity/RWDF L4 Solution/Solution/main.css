@@ -168,9 +168,10 @@ main {
  */
 
 .top-news {
-  height: 300px;
+  max-height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -261,8 +262,7 @@ main {
  */
 
 .weather {
-  float: right;
-  width: 100%;
+  flex-grow: 1;
   padding: 1em;
 }
 
@@ -312,11 +312,12 @@ main {
 
 /*
  *
- * Weather
+ * Recent News
  *
  */
 
 .recent-news {
+  flex-grow: 1;
   clear: both;
   padding: 1em;
 }
